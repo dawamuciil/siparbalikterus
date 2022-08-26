@@ -1,29 +1,34 @@
 <div class="page-section">
     <div class="container">
-        <h1 class="text-center mb-5 wow fadeInUp">Wisata Kroman</h1>
+        <h1 class="text-center mb-5 wow fadeInUp">Wisata Desa Balikterus</h1>
 
-        <div class="owl-carousel wow fadeInUp" id="doctorSlideshow">
-
-            @foreach($wisata as $wisatas)
-
-            <div class="item">
-                <div class="card-doctor">
+        
+            <div class="col-lg py-2 wow zoomIn items-center ">
+                <div class="card-blog justify-center items-center">
                     <div class="header">
-                        <img src="wisataimage/{{$wisatas->image}}" alt="">
-                        <div class="meta">
-                            <a href="#"><span class="mai-call"></span></a>
-                            <a href="#"><span class="mai-logo-whatsapp"></span></a>
+                        <div class="post-category">
+                            <a href="{!! url('/html/blog-details.html'); !!}">Danau</a>
                         </div>
+                        <a href="{!! url('/html/blog-details.html'); !!}" class="post-thumb">
+                            <img src="../assets/img/danau.jpg" alt="">
+                        </a>
                     </div>
                     <div class="body">
-                        <p class="text-xl mb-0">{{$wisatas->name}}</p>
-                        <span class="text-sm text-grey">{{$wisatas->speciality}}</span></span>
+                        <h5 class="post-title"><a href="{!! url('/html/blog-details.html'); !!}">Danau Kastoba</a></h5>
+                        <div class="site-info">
+                            <div class="avatar mr-2">
+                                <div class="avatar-img">
+                                    <img src="../assets/img/person/person_1.jpg" alt="">
+                                </div>
+                                <span>dawamuciil</span>
+                            </div>
+                            <span class="mai-time"></span> 1 week ago
+                        </div>
                     </div>
                 </div>
             </div>
-            @endforeach
-
-
         </div>
+
+        
     </div>
 </div>

@@ -9,7 +9,7 @@
 
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-    <title>Sistem Informasi Pariwisata Kroman </title>
+    <title>Sistem Informasi Desa BalikTerus </title>
 
     <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -33,17 +33,17 @@
                 <div class="row">
                     <div class="col-sm-8 text-sm">
                         <div class="site-info">
-                            <a href="#"><span class="mai-call text-primary"></span>+62 8994154085</a>
+                            <a href="tel:+6285608783675"><span class="mai-call text-primary"></span>+62 85608783675</a>
                             <span class="divider">|</span>
-                            <a href="#"><span class="mai-mail text-primary"></span> dawamuciil@gmail.com </a>
+                            <a href="mailto:dawamuciil@gmail.com"><span class="mai-mail text-primary"></span> dawamuciil@gmail.com </a>
                         </div>
                     </div>
                     <div class="col-sm-4 text-right text-sm">
                         <div class="social-mini-button">
-                            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-                            <a href="#"><span class="mai-logo-twitter"></span></a>
-                            <a href="#"><span class="mai-logo-dribbble"></span></a>
-                            <a href="#"><span class="mai-logo-instagram"></span></a>
+                            <a href="https://www.facebook.com/dava.ggbet.7/"><span class="mai-logo-facebook-f"></span></a>
+                            <a href="https://twitter.com/slowajawam"><span class="mai-logo-twitter"></span></a>
+                            <a href="https://github.com/dawamuciil"><span class="mai-logo-github"></span></a>
+                            <a href="https://www.instagram.com/kkn_desabalikterus2022/?hl=id"><span class="mai-logo-instagram"></span></a>
                         </div>
                     </div>
                 </div> <!-- .row -->
@@ -52,16 +52,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="#"><span class="text-primary">Sistem Informasi </span>-Wisata Kroman</a>
-
-                <form action="#">
-                    <div class="input-group input-navbar">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
-                    </div>
-                </form>
+                <a class="navbar-brand" href="/"><span class="text-primary">Sistem Informasi </span>- Desa Balikterus</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -70,51 +61,27 @@
                 <div class="collapse navbar-collapse" id="navbarSupport">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
+                            <a class="nav-link" href="{!! url('/html/about.html'); !!}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="doctors.html">Wisata</a>
+                            <a class="nav-link" href="{!! url('/html/doctors.html'); !!}">Wisata</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-
-                        @if(Route::has('login'))
-
-                        @auth
-                        <x-app-layout>
-
-                        </x-app-layout>
-
-                        @else
-                        <li class="nav-item">
-                            <a class="btn btn-primary ml-lg-3" href="{{route('login')}}">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary ml-lg-3" href="{{route('register')}}">Register</a>
-                        </li>
-
-                        @endauth
-
-                        @endif
+                        
                     </ul>
                 </div> <!-- .navbar-collapse -->
             </div> <!-- .container -->
         </nav>
     </header>
 
-    <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/blog/123.jpg);">
+    <div class="page-hero bg-image overlay-light" style="background-image: url(../assets/img/background.jpg);">
         <div class="hero-section">
             <div class="container text-center wow zoomIn">
-                <span class="subhead">Let's make your life happier</span>
+                <span class="subhead">Selamat Datang Di Desa Balikterus</span>
                 <h1 class="display-4">Tempat Menarik Untuk Dikunjungi</h1>
-                <a href="#" class="btn btn-primary">Let's Go </a>
+                
             </div>
         </div>
     </div>
@@ -129,7 +96,7 @@
                             <div class="circle-shape bg-secondary text-white">
                                 <span class="mai-chatbubbles-outline"></span>
                             </div>
-                            <p><span>Chat</span> with a admin</p>
+                            <p><span>Masyarakat </span> yang sejuk, santun</p>
                         </div>
                     </div>
                     <div class="col-md-4 py-3 py-md-0">
@@ -137,7 +104,7 @@
                             <div class="circle-shape bg-primary text-white">
                                 <span class="mai-shield-checkmark"></span>
                             </div>
-                            <p><span>Kroman</span>Tempat Menarik Di Gresik</p>
+                            <p><span>Desa BalikTerus</span></p>
                         </div>
                     </div>
                     <div class="col-md-4 py-3 py-md-0">
@@ -145,7 +112,7 @@
                             <div class="circle-shape bg-accent text-white">
                                 <span class="mai-basket"></span>
                             </div>
-                            <p><span>Gladak</span>-Kroman</p>
+                            <p><span>Pengerajin</span> - Gula Aren</p>
                         </div>
                     </div>
                 </div>
@@ -156,9 +123,9 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 py-3 wow fadeInUp">
-                        <h1>Selamat Datang Di Sistem Informasi Wisata Kroman <br> Gresik</h1>
-                        <p class="text-grey mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
-                        <a href="about.html" class="btn btn-primary">Learn More</a>
+                        <h1>Selamat Datang Di Sistem Informasi Desa Balikterus Kecamatan Sangkapura Bawean <br> Gresik</h1>
+                        <p class="text-grey mb-4">Desa Balikterus adalah salah satu desa dari 17 Desa yang berada di Kecamatan Sangkapura. Desa Balikterus adalah sebuah desa di arah utara Kecamatan sangkapura yang berbatasan langsung dengan Kecamatan Tambak, dan salah satu desa yang terbentuk sejak zaman penjajahan Belanda.</p>
+                        <a href="{!! url('/html/about.html'); !!}" class="btn btn-primary">Learn More</a>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
                         <div class="img-place custom-img-1">
@@ -179,55 +146,29 @@
 
     <!-- .banner-home -->
 
-    <footer class="page-footer">
+    <footer class="page-footer justify-center items-center">
         <div class="container">
             <div class="row px-md-3">
-                <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>Company</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Editorial Team</a></li>
-                        <li><a href="#">Protection</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>More</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Advertise</a></li>
-                        <li><a href="#">Join as Doctors</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>Our partner</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">One-Fitness</a></li>
-                        <li><a href="#">One-Drugs</a></li>
-                        <li><a href="#">One-Live</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3 py-3">
+                <div class="col-sm col-lg py">
                     <h5>Contact</h5>
-                    <p class="footer-link mt-2">351 Willow Street Franklin, MA 02038</p>
-                    <a href="#" class="footer-link">701-573-7582</a>
-                    <a href="#" class="footer-link">healthcare@temporary.net</a>
+                    <p class="footer-link mt-2">Balikterus adalah sebuah desa di Kecamatan Sangkapura, Kabupaten Gresik, provinsi Jawa Timur. Desa ini mempunyai kode bernomor 352517014.</p>
+                    <a href="tel:+628994154085" class="footer-link">+62 85608783675</a>
+                    <a href="mailto:dawamuciil@gmail.com" class="footer-link">dawamuciil@gmail.com</a>
 
                     <h5 class="mt-3">Social Media</h5>
                     <div class="footer-sosmed mt-3">
-                        <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-                        <a href="#" target="_blank"><span class="mai-logo-twitter"></span></a>
-                        <a href="#" target="_blank"><span class="mai-logo-google-plus-g"></span></a>
-                        <a href="#" target="_blank"><span class="mai-logo-instagram"></span></a>
-                        <a href="#" target="_blank"><span class="mai-logo-linkedin"></span></a>
+                        <a href="https://www.facebook.com/dava.ggbet.7/" target="_blank"><span class="mai-logo-facebook-f"></span></a>
+                        <a href="https://twitter.com/slowajawam" target="_blank"><span class="mai-logo-twitter"></span></a>
+                        <a href="https://github.com/dawamuciil" target="_blank"><span class="mai-logo-github"></span></a>
+                        <a href="https://www.instagram.com/kkn_desabalikterus2022/?hl=id" target="_blank"><span class="mai-logo-instagram"></span></a>
+                        <a href="https://www.linkedin.com/in/muhammad-dawamul-mughni-9aa910217/" target="_blank"><span class="mai-logo-linkedin"></span></a>
                     </div>
                 </div>
             </div>
 
             <hr>
 
-            <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p>
+            <p id="copyright">Copyright &copy; 2022 <a href="https://github.com/dawamuciil" target="_blank">Dawamuciil ID</a>. All right reserved</p>
         </div>
     </footer>
 

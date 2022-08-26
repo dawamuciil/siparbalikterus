@@ -26,7 +26,3 @@ Route::get('/home', [HomeController::class, 'redirect']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
-
-Route::get('/add_wisata_view', [AdminController::class, 'addview']);
-
-Route::post('/upload_wisata', [AdminController::class, 'upload']);
