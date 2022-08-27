@@ -27,6 +27,6 @@ class HomeController extends Controller
     public function index()
     {
 
-        return view('user.home', compact('wisata'));
+        return view('user.home');
     }
 }
