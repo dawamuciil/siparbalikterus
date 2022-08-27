@@ -26,7 +26,6 @@ class HomeController extends Controller
     }
     public function index()
     {
-        $wisata = wisata::all();
 
         return view('user.home', compact('wisata'));
     }
