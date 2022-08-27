@@ -125,7 +125,7 @@
                     <div class="col-lg-6 py-3 wow fadeInUp">
                         <h1>Selamat Datang Di Sistem Informasi Desa Balikterus Kecamatan Sangkapura Bawean <br> Gresik</h1>
                         <p class="text-grey mb-4">Desa Balikterus adalah salah satu desa dari 17 Desa yang berada di Kecamatan Sangkapura. Desa Balikterus adalah sebuah desa di arah utara Kecamatan sangkapura yang berbatasan langsung dengan Kecamatan Tambak, dan salah satu desa yang terbentuk sejak zaman penjajahan Belanda.</p>
-                        <a href="{!! url('/html/about.html'); !!}" class="btn btn-primary">Learn More</a>
+                        <a href="{!! url('/html/about.html'); !!}" class="btn btn-primary">Read More</a>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
                         <div class="img-place custom-img-1">
