@@ -20,7 +20,7 @@
                                 <div class="avatar-img">
                                     <img src="../assets/img/person/person_1.jpg" alt="">
                                 </div>
-                                <span>dawamuciil</span>
+                                <span>Muhammad Dawamul Mughni</span>
                             </div>
                             <span class="mai-time"></span> 1 week ago
                         </div>
@@ -45,7 +45,7 @@
                                 <div class="avatar-img">
                                     <img src="../assets/img/person/person_1.jpg" alt="">
                                 </div>
-                                <span>dawamuciil</span>
+                                <span>Muhammad Dawamul Mughni</span>
                             </div>
                             <span class="mai-time"></span> 1 week ago
                         </div>
@@ -70,7 +70,7 @@
                                 <div class="avatar-img">
                                     <img src="../assets/img/person/person_1.jpg" alt="">
                                 </div>
-                                <span>dawamuciil</span>
+                                <span>Muhammad Dawamul Mughni</span>
                             </div>
                             <span class="mai-time"></span> 1 week ago
                         </div>
